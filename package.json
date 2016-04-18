@@ -1,0 +1,26 @@
+{
+  "name": "mean-boiler-plate",
+  "version": "1.0.0",
+  "description": "a boiler plate with mean stack",
+  "main": "app.js",
+  "scripts": {
+    "test": "hello world"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "cors": "^2.7.1",
+    "ejs": "^2.4.1",
+    "express": "^4.13.4",
+    "http": "0.0.0",
+    "jquery": "^2.2.2",
+    "mongoose": "^4.4.12",
+    "socket.io": "^1.4.5"
+  },
+  "devDependencies": {
+    "grunt-contrib-compass": "^1.1.1",
+    "grunt-sass-globbing": "^1.5.1",
+    "load-grunt-tasks": "^3.5.0"
+  }
+}

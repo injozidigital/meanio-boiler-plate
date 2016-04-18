@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <% include ../partials/head %>
+</head>
+<style>
+    #sendBtn{
+        cursor: pointer;
+        color: red;
+        clear: both;
+    }
+</style>
+<body>
+<h1>Send</h1>
+
+<a id="sendBtn" onclick="sendData()">SEND</a>
+
+<script src="socket.io/socket.io.js"></script>
+<script>
+    var socket = io.connect("http://localhost:3000/");
+    function sendData(){
+        console.log("send something");
+        socket.emit('dataSend',{data:"hello"});
+    }
+</script>
+</body>
+</html>
